@@ -8,6 +8,8 @@ Either install that programm, or change the code.
 Furthermore the program depends on some other external files like icons, sounds or system files that may not exist on your system.
 In that case changing these paths is recommended.
 
+Nim compiler needed
+
 ## Build
 To build the program simply run:
 ```
