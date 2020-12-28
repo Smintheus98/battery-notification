@@ -3,6 +3,10 @@ Daemon program to control laptop battery level and warn/suspend when running low
 
 Warning: This application uses the command line tool `systemctl` which is part of the common init system *systemd*.
 If your system uses an other init system, you should change the code accordingly.
+Also this program uses an externam tool `mpv` for sound generation.
+Either install that programm, or change the code.
+Furthermore the program depends on some other external files like icons, sounds or system files that may not exist on your system.
+In that case changing these paths is recommended.
 
 ## Build
 To build the program simply run:
