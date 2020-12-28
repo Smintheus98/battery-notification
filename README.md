@@ -1,4 +1,4 @@
-# battery-notification
+# battery-notifierd
 Daemon program to control laptop battery level and warn/suspend when running low for WMs
 
 Warning: This application uses the command line tool `systemctl` which is part of the common init system *systemd*.
