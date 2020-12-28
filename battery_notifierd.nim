@@ -14,7 +14,7 @@ const
   bat_level_low          = 15
   icon_level_critical = "/usr/share/icons/Sardi-Ghost-Flexible-Viking/scalable/status/battery-010.svg"
   icon_level_low = "/usr/share/icons/Sardi-Ghost-Flexible-Viking/scalable/status/battery-030.svg"
-  sound = "/home/ykitten/.sounds/GW150914_template_shifted.wav"
+  sound = "$HOME/.sounds/GW150914_template_shifted.wav"
   bat_level_info_filename  = "/sys/class/power_supply/BAT1/capacity"
   bat_status_info_filename = "/sys/class/power_supply/BAT1/status"
 
