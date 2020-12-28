@@ -21,12 +21,12 @@ $ make run
 ```
 Or when the program already has been built:
 ```
-$ ./battery_notifierd
+$ bin/battery_notifierd
 ```
 
 ## Use
 To use this program by your Window Manager it is recommended, to call the program in the WM-configuration file to automatically thart the program on WM start up.
 Because this program works as a daemon it is recommended to start it as a background process:
 ```
-$ ./battery_notifierd &
+$ bin/battery_notifierd &
 ```
