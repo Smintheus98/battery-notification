@@ -1,7 +1,7 @@
 # battery-notifierd
 Daemon program to control laptop battery level and warn/suspend when running low for WMs
 
-Warning: This application uses the command line tool `systemctl` which is part of the common init system *systemd*.
+Warning: This application uses the command line tool `systemctl` which is part of the common init system **systemd**.
 If your system uses an other init system, you should change the code accordingly.
 Also this program uses an external tool `mpv` for sound generation.
 Either install that programm, or change the code.
